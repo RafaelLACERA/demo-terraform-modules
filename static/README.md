@@ -1,13 +1,18 @@
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.6.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 6.34.0 |
+| <a name="requirement_local"></a> [local](#requirement\_local) | >= 2.7.0 |
+| <a name="requirement_random"></a> [random](#requirement\_random) | >= 3.8.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_random"></a> [random](#provider\_random) | n/a |
+| <a name="provider_random"></a> [random](#provider\_random) | >= 3.8.1 |
 
 ## Modules
 
