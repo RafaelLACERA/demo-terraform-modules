@@ -15,7 +15,7 @@ command = plan
   }
 #Comportemetns que je veux tester
   assert {
-    condition = aws_s3_bucket.s3_modules.bucket == "bucket-test"
+    condition = aws_s3_bucket.s3_module.bucket == "bucket-test"
      error_message = "S3 Bucket name did not match expected value"
   }
 
